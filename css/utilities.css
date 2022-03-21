@@ -1,0 +1,71 @@
+/* Root Variables */
+:root {
+  --primary-color: #28a745;
+  --secondary-color: #0284d0;
+  --dark-color: #333;
+  --light-color: #f4f4f4;
+  --white: #fff;
+}
+
+/* Text colors */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+/* Button */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary, .bg-primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-secondary, .bg-secondary {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+
+.btn-dark, .bg-dark {
+  background-color: var(--dark-color);
+  color: var(--white);
+}
+
+.btn-light, .bg-light {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+/* Flex Items */
+
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flex-items > div {
+  padding: 2rem;
+}
